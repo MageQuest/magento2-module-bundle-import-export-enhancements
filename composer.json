@@ -1,0 +1,25 @@
+{
+    "name": "magequest/magento2-module-bundle-import-export-enhancements",
+    "description": "A Magento 2 module that improves the bundle product import export functionality.",
+    "type": "magento2-module",
+    "require": {
+        "magento/module-bundle-import-export": "^100.4",
+        "magento/module-catalog-import-export": "^101.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MageQuest",
+            "email": "hello@magequest.io",
+            "homepage": "https://www.magequest.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MageQuest\\BundleImportExportEnhancements\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

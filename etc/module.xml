@@ -8,5 +8,10 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="MageQuest_BundleImportExportEnhancements"/>
+    <module name="MageQuest_BundleImportExportEnhancements">
+        <sequence>
+            <module name="Magento_BundleImportExport"/>
+            <module name="Magento_CatalogImportExport"/>
+        </sequence>
+    </module>
 </config>
