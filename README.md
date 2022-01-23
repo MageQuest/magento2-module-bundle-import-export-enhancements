@@ -1,4 +1,4 @@
-# MageQuest_ProductExportDiscreteAttributeColumns
+# MageQuest_BundleImportExportEnhancements
 
 Bundle import/export, but better.
 
